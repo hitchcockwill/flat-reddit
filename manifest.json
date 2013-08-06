@@ -4,7 +4,9 @@
   "version": "1.0",
   "description": "A modern styling for Reddit.",
   "content_scripts": [{
-    "css": ["style.css"],
-    "matches": ["http://www.reddit.com/*"]    
+    "css": ["css/style.css"],
+    "js": ["js/jquery.min.js", "js/script.js"],
+    "matches": ["http://www.reddit.com/*"],
+    "run_at": "document_start"
   }]
 }

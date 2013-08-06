@@ -1,0 +1,388 @@
+body {
+  background: #eceef1 !important;
+}
+
+/*Header*/
+
+#sr-header-area {
+  border-bottom: none !important;
+  background: #eceef1 !important;
+}
+
+.sr-bar a, 
+.dropdown.srdrop .selected,
+#sr-more-link {
+  color: #555559 !important;
+}
+
+#sr-header-area .drop-choices {
+  width: 310px !important;
+}
+
+#sr-header-area .drop-choices a.choice {
+  float: left !important;
+  width: 50% !important;
+}
+
+.drop-choices {
+  box-shadow: 0 2px 5px rgba(0,0,0,.5) !important;
+  border: none !important;
+  padding: 4px 0 0 !important;
+  border-radius: 0 0 2px 2px !important;
+}
+
+#sr-header-area.drop-choices:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.drop-choices a.choice {
+  padding: 2px 4px 1px !important;
+  box-sizing: border-box !important;
+  transition: background-color .25s;
+}
+
+.srdrop .choice.bottom-option {
+  width: 100% !important;
+  margin-top: 2px;
+}
+
+#header {
+  border: none !important;
+}
+
+#header-img.default-header {
+  margin: 8px 6px 12px !important;
+}
+
+.tabmenu {
+  margin-bottom: 6px !important;
+}
+
+.tabmenu li a {
+  padding: 6px 8px !important;
+  border-radius: 2px 2px 0 0 !important;
+}
+
+.tabmenu li.selected a {
+  border: none !important;
+}
+
+/* Content */
+
+body.with-listing-chooser .listing-chooser .grippy {
+  background: #eceef1 !important;
+}
+
+
+div.content .sitetable.linklisting {
+  padding-top: 8px !important;
+}
+
+
+.content {
+  /*margin-top: 15px !important;*/
+}
+
+.content > .sitetable,
+.sitetable.linklisting {
+  margin-right: 320px !important;
+  overflow: hidden;
+}
+
+#siteTable_promoted, 
+#siteTable_organic { display: none !important; }
+
+
+/*List items*/
+
+.link.last-clicked {
+  border: none !important;
+  border-top: 4px solid #eceef1 !important;
+  border-bottom: 4px solid #eceef1 !important;
+}
+
+.thing.link {
+  padding: 8px 8px !important;
+  /*margin-right: 315px !important;*/
+  margin-left: 8px !important;
+  margin-bottom: 2px !important;
+  background: white !important;
+}
+
+.thing.link:first-of-type {
+  border-radius: 2px 2px 0 0;
+}
+
+.thing.link:last-of-type {
+  border-radius: 0 0 2px 2px;
+}
+
+.thing .title, .thing .title.loggedin {
+  color: #2358d9 !important;
+}
+
+.thing .title:visited, .thing .title.loggedin:visited {
+  color: #6b387c !important;
+}
+
+.link .entry {
+  border: none !important;
+}
+
+.link .rank {
+  color: #d9d9d9 !important;
+}
+
+div.thing .thumbnail img {
+  border-radius: 2px !important;
+}
+
+.thumbnail {
+  margin: 0 10px 0 5px !important;
+}
+
+.link .title {
+  margin-right: 0 !important;
+  margin-bottom: 4px !important;
+}
+
+.domain, .tagline {
+  color: #aaa !important;
+}
+
+a.author {
+  margin-right: 0 !important;
+}
+
+/*comments*/
+
+.commentarea > .sitetable {
+  margin-right: 315px !important;
+}
+
+.comment {
+  margin: 0 10px 2px;
+  background: white;
+  padding: 10px;
+}
+
+.comment .child, .comment .showreplies {
+  border-left: 1px solid #eceef1 !important;
+}
+
+.comment:first-of-type {
+  border-radius: 2px 2px 0 0;
+}
+
+.comment:last-of-type {
+  border-radius: 0 0 2px 2px;
+}
+
+.comment .collapsed {
+  padding-bottom: 2px !important;
+}
+
+.comment .expand:hover {
+  color: #369 !important;
+  background: none !important;
+}
+
+.panestack-title {
+  border-bottom: none !important;
+}
+
+/*Sidebar*/
+
+body.listing-page .side {
+  margin-top: 10px !important;
+}
+
+.side {
+  margin-left: 15px !important;
+  margin-right: 10px !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.side .spacer {
+  margin-top: 15px !important;
+  background: none !important;
+}
+
+#search input[type=text] {
+  width: 283px !important;
+}
+
+#search input[type=text]:focus {
+  border: 1px solid #cee3f8 !important;
+}
+
+#searchexpando {
+  padding-bottom: 10px !important;
+}
+
+.morelink {
+  background-image: none !important;
+  background-color: #c4dbf1 !important;
+  border-radius: 2px;
+  transition: background-color .15s !important;
+  transition-delay: .5s;
+}
+
+.morelink:hover {
+  background-color: #879eb4 !important;
+}
+
+.morelink a {
+  transition: color .15s, border-color .15s !important;
+  transition-delay: .5s;
+}
+
+.morelink .nub {
+  display: none !important;
+}
+
+.sidebox .spacer {
+  background: none !important;
+}
+
+.goldvertisement {
+  border: none !important;
+  box-shadow: none !important;
+  background: #dbd1b5 !important;
+  border-radius: 2px !important;
+  padding-top: 6px !important;
+  color: #555559 !important;
+}
+
+.goldvertisement a {
+  text-decoration: none !important;
+}
+
+.goldvertisement:hover a {
+  text-decoration: underline !important;
+}
+
+.sidecontentbox .content {
+  margin-top: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.side > :first-child {
+  margin-top: 5px !important;
+}
+
+.linkinfo {
+  border: none !important;
+  padding: 8px 8px 4px !important;
+  color: #555559 !important;
+}
+
+.linkinfo div.score {
+  margin: 4px 0 !important;
+}
+
+.titlebox .users-online {
+  margin-bottom: 30px !important;
+}
+
+.titlebox h1 {
+  margin-top: 26px !important;
+}
+
+/*components*/
+
+.entry .buttons li a {
+  color: #aaa !important;
+}
+
+.infobar {
+  border: none !important;
+}
+
+.infobar p:last-of-type {
+  margin-bottom: 0 !important;
+}
+
+.side hr {
+  border-bottom: none !important;
+}
+
+.flair, .linkflairlabel {
+  margin-left: 3px !important;
+}
+
+.titlebox .usertext-body .md h3 {
+  position: static !important;
+}
+
+.titlebox .usertext-body .md h3 a {
+  border: none !important;
+  border-radius: 2px !important;
+}
+
+.titlebox .users-online:before {
+  background: #7bb850 !important;
+  background-image: none !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 8px !important;
+  margin-top: 3px !important;
+}
+
+form.usertext {
+  margin-top: 20px;
+}
+
+.usertext-body {
+  color: #555559 !important;
+}
+
+.titlebox form.toggle, .leavemoderator {
+  background: none !important;
+}
+
+/*forms*/
+
+input[type=text],
+textarea {
+  border: none !important;
+  border-radius: 2px !important;
+  outline: none !important;
+  border: 1px solid white !important;  
+}
+
+input[type=text]:focus,
+textarea:focus {
+  border: 1px solid #cee3f8 !important;
+}
+
+textarea {
+  padding: 8px !important;
+}
+
+input[type=text] {
+  padding: 4px 8px !important;
+}
+
+/*buttons*/
+
+.fancy-toggle-button .active {
+  border: none !important;
+  border-radius: 2px !important;
+  padding: 2px 6px !important;
+}
+
+.fancy-toggle-button .remove {
+  background-image: none !important;
+  background: #cf6165 !important;
+}
+
+.fancy-toggle-button .add {
+  background-image: none !important;
+  background: #7bb850 !important;
+}
+
