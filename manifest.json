@@ -3,6 +3,10 @@
   "name": "Flat Reddit",
   "version": "1.0",
   "description": "A modern styling for Reddit.",
+  "icons": {
+    "128": "img/flat-reddit-icon.png"
+  },
+
   "content_scripts": [
     {
       "css": ["css/config.css"],

@@ -1,0 +1,135 @@
+.sitetable .sitetable.linklisting {
+  margin-right: 0 !important;
+}
+
+.NERPageMarker {
+  margin-left: 7px !important;
+  border: none !important;
+  border-radius: 2px !important;
+  margin-bottom: -2px !important;
+}
+
+#progressIndicator {
+  border: none !important;
+  margin: 5px 315px 5px 7px !important;
+  width: auto !important;
+  border-radius: 2px !important;
+  color: #555559 !important;
+}
+
+.RES-keyNav-activeElement + div.child{
+  position: static !important;
+}
+
+#siteTable .RES-keyNav-activeElement,
+.sitetable .RES-keyNav-activeElement {
+  background-color: transparent !important;
+  outline: none !important;
+}
+
+.res .sitetable .thing {
+  position: relative !important;
+}
+
+.RES-keyNav-activeElement + div.child:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #F0F3FC;
+  z-index: 0;
+}
+
+.madeVisible {
+  margin-top: 10px !important;
+}
+
+body.comments-page .RES-keyNav-activeElement + div.child:before {
+  display: none !important;
+}
+
+.res-commentBoxes .comment .comment {
+  border: none !important;
+}
+
+.res-commentBoxes.res-commentBoxes-rounded .comment {
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.RESshortcutside,
+.RESDashboardToggle {
+  border: none !important;
+  border-radius: 2px !important;
+  padding: 2px 6px !important;
+  background-image: none !important;
+  background: #7bb850 !important;
+} 
+
+/*comment forms*/
+
+body.res.comments-page .menuarea .dropdown-title {
+  margin-left: 6px !important;
+}
+
+body.res.comments-page .commentarea>.usertext {
+  margin-top: 10px !important;
+}
+
+body.res.comments-page div.commentingAs,
+body.res.comments-page div.markdownEditor {
+  background: #EFF7FF !important;
+  padding: 10px !important;
+ 
+}
+
+body.res.comments-page div.commentingAs {
+  color: #555559 !important;
+}
+
+body.res.comments-page div.markdownEditor {
+  padding-bottom: 0 !important;
+}
+
+/*comments page*/
+
+.res-commentBoxes .comment {
+  padding: 10px 10px 0 !important;
+  margin-bottom: 10px !important;
+  margin-left: 5px !important;
+}
+
+.res-commentBoxes .commentarea > .sitetable > .comment {
+  margin-bottom: 2px !important;
+}
+
+.res-commentBoxes .comment div.collapsed {
+  margin-bottom: 10px !important;
+}
+
+/*dialog box*/
+
+.RESDialogSmall,
+.RESDialogSmall * {
+  border: none !important;
+}
+
+.RESDialogSmall > h3 {
+  margin-top: 5px !important;
+}
+
+.RESDialogSmall {
+  box-shadow: 1px 1px 5px rgba(0,0,0,.25) !important;
+}
+
+/*error*/
+
+#NERFail {
+  border: none !important;
+  background: #EFF7FF;
+  padding: 10px !important;
+  color: #555559;
+  margin: 10px 0 10px 8px !important;
+}
