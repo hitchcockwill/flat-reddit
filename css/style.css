@@ -69,6 +69,35 @@ body {
   border: none !important;
 }
 
+#header-bottom-right {
+  background: none !important;
+  padding: 6px 8px !important;
+}
+
+/*drawer*/
+
+body.with-listing-chooser .listing-chooser {
+  background: transparent !important;
+  top: 78px !important;
+} 
+
+.listing-chooser li.selected {
+  margin-right: 0 !important;
+  box-shadow: -2px 0px 3px -1px rgba(0,0,0,0.2) inset !important;
+}
+
+.listing-chooser li {
+  border: none !important;
+  border-radius: 2px 0 0 2px !important;
+  margin-bottom: 8px !important;
+  margin-left: 12px !important;
+}
+
+.listing-chooser .intro {
+  border: none !important;
+  padding: 2px 0 !important;
+}
+
 /* Content */
 
 body.with-listing-chooser .listing-chooser .grippy {
@@ -78,11 +107,6 @@ body.with-listing-chooser .listing-chooser .grippy {
 
 div.content .sitetable.linklisting {
   padding-top: 8px !important;
-}
-
-
-.content {
-  /*margin-top: 15px !important;*/
 }
 
 .content > .sitetable,
@@ -333,7 +357,7 @@ body.listing-page .side {
   margin-top: 3px !important;
 }
 
-form.usertext {
+.titlebox form.usertext {
   margin-top: 20px;
 }
 
@@ -343,6 +367,45 @@ form.usertext {
 
 .titlebox form.toggle, .leavemoderator {
   background: none !important;
+}
+
+/*user page*/
+
+.menuarea {
+  border-bottom: none !important;
+  margin: 5px 5px 0 !important;
+}
+
+.profile-page div.thing {
+  padding-bottom: 1px !important;
+}
+
+.profile-page div.thing p.parent {
+  margin-bottom: 8px !important;
+}
+
+.profile-page div.thing.comment {
+  margin-right: 0 !important;
+}
+
+.profile-page .titlebox .bottom {
+  border-top: none !important;
+}
+
+.tagline .submitter {
+  color: #2358D9 !important;
+}
+
+.giftgold {
+  margin: 30px 0 15px !important;
+}
+
+.trophy-table {
+  margin-top: 10px !important;
+}
+
+.trophy-area .content {
+  background: transparent !important;
 }
 
 /*forms*/
@@ -369,6 +432,33 @@ input[type=text] {
 }
 
 /*buttons*/
+
+.nextprev {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+  margin-left: 10px !important;
+}
+
+input.btn, 
+a.btn,
+.nextprev a {
+  outline: none !important;
+  padding: 4px 6px !important;
+  border: none !important;
+  border-radius: 2px !important;
+  color: #369 !important;
+  background: #C4DBF1 !important;
+  transition: background .2s;
+}
+
+input.btn:active,
+input.btn:hover,
+a.btn:active,
+a.btn:hover,
+.nextprev a:active,
+.nextprev a:hover {
+  background: #b8cde2 !important; 
+}
 
 .fancy-toggle-button .active {
   border: none !important;

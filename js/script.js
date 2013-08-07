@@ -4,4 +4,6 @@ removeStylesheets = function() {
 
 $(document).ready(function(){
   removeStylesheets();
+
+  $("body").animate({"opacity": 1}, 500);
 });

@@ -3,10 +3,16 @@
   "name": "Flat Reddit",
   "version": "1.0",
   "description": "A modern styling for Reddit.",
-  "content_scripts": [{
-    "css": ["css/style.css"],
-    "js": ["js/jquery.min.js", "js/script.js"],
-    "matches": ["http://www.reddit.com/*"],
-    "run_at": "document_start"
-  }]
+  "content_scripts": [
+    {
+      "css": ["css/config.css"],
+      "matches": ["http://www.reddit.com/*"]
+    }, 
+    {
+      "css": ["css/style.css"],
+      "js": ["js/jquery.min.js", "js/script.js"],
+      "matches": ["http://www.reddit.com/*", "https://ssl.reddit.com/*"],
+      "run_at": "document_start"
+    }
+  ]
 }
