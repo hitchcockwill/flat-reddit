@@ -127,6 +127,14 @@ div.content .sitetable.linklisting {
   border-bottom: 4px solid #eceef1 !important;
 }
 
+.thing {
+  position: relative !important;
+}
+.thing > * {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
 .thing.link {
   padding: 8px 8px !important;
   /*margin-right: 315px !important;*/
@@ -406,6 +414,12 @@ body.listing-page .side {
 
 .trophy-area .content {
   background: transparent !important;
+}
+
+/*foooter*/
+
+.footer .col {
+  border-left: none !important;
 }
 
 /*forms*/

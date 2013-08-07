@@ -9,7 +9,7 @@
       "matches": ["http://www.reddit.com/*"]
     }, 
     {
-      "css": ["css/style.css"],
+      "css": ["css/style.css", "css/res.css"],
       "js": ["js/jquery.min.js", "js/script.js"],
       "matches": ["http://www.reddit.com/*", "https://ssl.reddit.com/*"],
       "run_at": "document_start"
