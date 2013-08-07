@@ -194,10 +194,18 @@ a.author {
   margin-right: 315px !important;
 }
 
+.commentarea .menuarea {
+  margin-left: 10px !important;
+}
+
 .comment {
   margin: 0 10px 2px;
   background: white;
   padding: 10px;
+}
+
+.comment .comment {
+  padding-bottom: 0 !important;
 }
 
 .comment .child, .comment .showreplies {
@@ -225,6 +233,10 @@ a.author {
   border-bottom: none !important;
 }
 
+div.thing > div.unvoted {
+  margin-right: 10px !important;
+}
+
 /*Sidebar*/
 
 body.listing-page .side {
@@ -241,6 +253,10 @@ body.listing-page .side {
 .side .spacer {
   margin-top: 15px !important;
   background: none !important;
+}
+
+body.comments-page .side {
+  margin-top: 10px !important;
 }
 
 #search input[type=text] {
@@ -455,13 +471,15 @@ input[type=text] {
 
 input.btn, 
 a.btn,
-.nextprev a {
+.nextprev a,
+button.save,
+button.RESBigEditorPop {
   outline: none !important;
   padding: 4px 6px !important;
   border: none !important;
   border-radius: 2px !important;
   color: #369 !important;
-  background: #C4DBF1 !important;
+  background-color: #C4DBF1 !important;
   transition: background .2s;
 }
 
@@ -470,8 +488,12 @@ input.btn:hover,
 a.btn:active,
 a.btn:hover,
 .nextprev a:active,
-.nextprev a:hover {
-  background: #b8cde2 !important; 
+.nextprev a:hover,
+button.save:active,
+button.save:hover,
+button.RESBigEditorPop:active,
+button.RESBigEditorPop:hover {
+  background-color: #b8cde2 !important; 
 }
 
 .fancy-toggle-button .active {
