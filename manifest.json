@@ -1,9 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Flat Reddit",
+  "name": "Flatit",
   "version": "1.0",
-  "description": "A modern styling for Reddit.",
+  "description": "A modern styling for reddit.",
+
   "icons": {
+    "48": "img/flat-reddit-icon-48.png",
     "128": "img/flat-reddit-icon.png"
   },
 
