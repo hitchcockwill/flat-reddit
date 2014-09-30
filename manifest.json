@@ -12,18 +12,18 @@
   "content_scripts": [
     {
       "css": ["css/config.css"],
-      "matches": ["http://www.reddit.com/*"],
+      "matches": ["http://www.reddit.com/*", "https://www.reddit.com/*"],
       "run_at": "document_start"
     }, 
     {
       "css": ["css/style.css"],
       "js": ["js/jquery.min.js", "js/script.js"],
-      "matches": ["http://www.reddit.com/*", "https://ssl.reddit.com/*"],
+      "matches": ["http://www.reddit.com/*", "https://ssl.reddit.com/*", "https://www.reddit.com/*"],
       "run_at": "document_start"
     }, 
     {
       "css": ["css/res.css"],
-      "matches": ["http://www.reddit.com/*", "https://ssl.reddit.com/*"],
+      "matches": ["http://www.reddit.com/*", "https://ssl.reddit.com/*", "https://www.reddit.com/*"],
       "run_at": "document_idle"
     }
   ]
